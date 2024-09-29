@@ -38,7 +38,9 @@ const Navbar = () => {
           {isNavbarOpen ? <LuX size={25} /> : <LuMenu size={25} />}
         </button>
         <div className="flex justify-start items-center">
-          <FaCircleUser className="text-xl hover:text-white mr-5" />
+          <a href="/login">
+            <FaCircleUser className="text-xl hover:text-white mr-5" />
+          </a>
           <IoMdCart className="text-xl hover:text-white mr-5" />
         </div>
       </nav>
